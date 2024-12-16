@@ -1,0 +1,82 @@
+.list {
+  margin:0 auto;
+  margin-top: 20px;
+  padding: auto;
+  width:50%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  max-width: 400px;
+}
+
+.container{
+  display:flex;
+  width:100%;
+  margin: 0;
+}
+
+.inputBar{
+  border: None;
+  width:80%;
+  height:50px;
+  padding-left: 10px;
+  background-color:#f2f0ef;
+  font-family: 'sans-serif';
+  font-size: 20px;
+}
+
+.inputBar:focus{
+  outline: none;
+}
+
+.addButton{
+  flex:1;
+  border: none;
+  cursor: pointer;
+  background-color: #f7ca18;
+  color:white;
+}
+
+.addButton:hover{
+  opacity: 0.8;
+}
+
+.addButton:active{
+  opacity: 0.5;
+}
+
+.itemsContainer{
+  margin:25px auto;
+  padding: 10px;
+  padding-top: 3px;
+  padding-bottom: 0;
+  width: 60%;
+  background-color:#f2f0ef;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  border: none;
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 550px;
+  overflow-y: hidden;
+}
+
+.itemsContainer:hover{
+  overflow-y: auto;
+  transition: 1s ease-in-out;
+}
+
+::-webkit-scrollbar{
+  width:5px;
+}
+
+::-webkit-scrollbar-track{
+  background: #f1f1f1;
+  
+}
+
+::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #555;
+}

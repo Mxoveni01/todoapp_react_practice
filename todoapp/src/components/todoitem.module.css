@@ -1,0 +1,61 @@
+.item{
+  display:flex;
+  margin-top: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.task{
+  width: 70%;
+}
+
+.itembutton, .remove{
+  background-color: #f7ca18;
+}
+
+.check{
+  background-color: limegreen;
+}
+
+.verticalline{
+  margin: 5px;
+  height: 25px;
+  width: 0.5px;
+  border: none;
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.horizontalline{
+  margin: 1px 0;
+  opacity:0.2;
+}
+
+.buttonscontainer{
+  flex: 1;
+  display: flex;
+  height: 40px;
+}
+
+.itembutton, .check, .remove{
+  flex:1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:white;
+  margin-left: 5px;
+  transition: 0.5s ease-in-out;
+}
+
+.itembutton:hover, .check:hover{
+  opacity: 0.8;
+}
+
+.remove:hover{
+  background-color: #ff2c2c;
+  opacity: 0.9;
+}
+
+.itembutton:active, .check:active, .remove:active{
+  opacity: 0.5;
+}
